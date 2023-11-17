@@ -1,2 +1,4 @@
 # speedreader
-Speed reader. Word display time adjusted by length and digit incidence
+Speed reader app, inspired by https://www.spreeder.com/app.php
+
+

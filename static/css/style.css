@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 150px; /* Increased height */
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#wordDisplay {
+    margin-top: 20px;
+    font-size: 60px; /* Increased font size */
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #ddd; /* Added border */
+    padding: 40px; /* Added padding */
+    background-color: #f9f9f9; /* Added background color */
+    min-width: 50%; /* Minimum width */
+    min-height: 150px; /* Minimum width */
+    /*display: inline-block; /* Adjust display */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Align items vertically center */
+    justify-content: center; /* Align items horizontally center */
+    text-align: center; /* Center text alignment *
+}

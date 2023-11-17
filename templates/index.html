@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speed Reader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Speed Reader</h1>
+        <textarea id="inputText" rows="4" cols="50"></textarea><br>
+        Word Group Size: <input type="number" id="groupSize" value="3" min="1" max="5"><br>
+        Words Per Minute: <input type="number" id="wpm" value="350" min="10"><br>
+        Digit display time multiplier: <input type="number" id="digitweight" value="5" min="1"><br>
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+        <button id="resetButton" style="margin-left: 20px;">Reset</button> <!-- Reset button with margin -->
+        <div id="wordDisplay"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
